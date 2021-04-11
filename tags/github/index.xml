@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home Page on Mat&#39;s Blog</title>
-    <link>https://example.com/</link>
-    <description>Recent content in Home Page on Mat&#39;s Blog</description>
+    <title>github on Mat&#39;s Blog</title>
+    <link>https://example.com/tags/github/</link>
+    <description>Recent content in github on Mat&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Mat - All rights reserved</copyright>
-    <lastBuildDate>Fri, 26 Mar 2021 11:12:00 +0200</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Documentation</title>
-      <link>https://example.com/doc/</link>
-      <pubDate>Fri, 26 Mar 2021 11:12:00 +0200</pubDate>
-      
-      <guid>https://example.com/doc/</guid>
-      <description>Git Command $ ssh-keygen -t ed25519 -C &amp;quot;mat.chan@example.copm&amp;quot;  For Linux/Windows Powershell use only.
--t “Type” This option specifies the type of key to be created.</description>
-    </item>
-    
-    <item>
-      <title>Documentation</title>
-      <link>https://example.com/static/unused/</link>
-      <pubDate>Fri, 26 Mar 2021 11:12:00 +0200</pubDate>
-      
-      <guid>https://example.com/static/unused/</guid>
-      <description>Git Command $ eval ssh-agent -s 1234Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 15 Jan 2021 11:17:14 +0200</lastBuildDate><atom:link href="https://example.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Message 如何做好 Version Control</title>
       <link>https://example.com/blog/git-message-control/</link>
