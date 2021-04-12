@@ -64,8 +64,12 @@ pre {
 .site-content {
     min-height: 60vh;
     /* padding-top: 1.5rem; */
-    margin-top: 40vh;
+    margin-top: 127px;
     transition: all 0.4s;
+}
+
+.main-content.index {
+    margin-top: 40vh;
 }
 
 .site-content>.container {
