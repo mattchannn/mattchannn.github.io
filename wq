@@ -1,0 +1,162 @@
+[33mcommit f9f6448f3e1280022c7c7bbe49cee1184d7d4d83[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Mon Apr 5 19:30:08 2021 +0800
+
+    Update post layout and content
+
+[33mcommit 8cbf36dcd4fb487e852a6412764fd0d056be344b[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Mon Mar 29 22:56:06 2021 +0800
+
+    Externalize some page layouts
+
+[33mcommit 7a6146c20d90204c83e773f50c9545b51617dfe2[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sun Mar 28 23:12:12 2021 +0800
+
+    Update css
+
+[33mcommit 9376b02e16d98e24f45ad3492093f48c1df9900b[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sun Mar 28 16:24:38 2021 +0800
+
+    Import font
+
+[33mcommit f2f405c1d849b223b895531b76ade2e66836c812[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sun Mar 28 15:14:14 2021 +0800
+
+    Update theme
+
+[33mcommit 193aaf9e2d4177b0341c449b2a7c699376458f26[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sun Mar 21 23:26:10 2021 +0800
+
+    Delete layout files
+
+[33mcommit 6e35f00d547bd3538cde027ecb3bd8dcc1ad5791[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sun Mar 21 23:21:04 2021 +0800
+
+    Update layout and formatting
+
+[33mcommit 61f3b19783e010fc0d443edd17ed028607415389[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Wed Mar 17 17:41:08 2021 +0800
+
+    Use default layout
+
+[33mcommit 1c8c9f7e152aa6f031c6ba7c937ef82f8cc0a4fb[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Wed Mar 17 17:04:49 2021 +0800
+
+    Update
+
+[33mcommit 193d7eb3ce0999b70098c9676e4402242d922030[m
+Merge: 9acf635 526b089
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Wed Mar 17 12:50:51 2021 +0800
+
+    Merge branch 'master' of github.com:mattchannn/blog
+
+[33mcommit 9acf6359c1cb71408ec260fc5b25094aa8585d04[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Wed Mar 17 12:19:20 2021 +0800
+
+    Initial Commit
+
+[33mcommit 526b089c2dd2cd8f3bb04f2a32d4250eefa54b3f[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Tue Mar 16 19:38:42 2021 +0800
+
+    Remove all jekyll config
+
+[33mcommit ad8650bca09e1deb3a5dfcbbd7beedb1e9466303[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:26:25 2021 +0800
+
+    Update _config.yml
+
+[33mcommit c7a4d8ed5d03a0ac1c897d6dfc7097eabb61be7e[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:25:25 2021 +0800
+
+    Update _config.yml
+
+[33mcommit 86e7c037f57aa3196d821793f90db5e8976d20bd[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:21:43 2021 +0800
+
+    Update _config.yml
+
+[33mcommit 385cbcdcddfaeffa10ac9ecb69fea597d89b0d7c[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:20:32 2021 +0800
+
+    Update _config.yml
+
+[33mcommit 68ef05807054ef468b2269d75443a900c78277e6[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:08:45 2021 +0800
+
+    Update _config.yml
+
+[33mcommit c697d5172e69b8b8efba58e4f0551ed433a7b397[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:05:47 2021 +0800
+
+    Update _config.yml
+
+[33mcommit 9ca9e3eb21985e1b56ac4b9ccbb633b88e0d11f0[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:04:02 2021 +0800
+
+    Update _config.yml
+
+[33mcommit 262331aba31dfd416b5d3300bef0496ff1ee4712[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 18:03:20 2021 +0800
+
+    Restructure file
+
+[33mcommit 5eb3ec6431b76ad2d86b7967682876051a19d431[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 17:58:54 2021 +0800
+
+    Update _config.yml
+
+[33mcommit fa0f9b508b8f30c58fb2f638ac9b38bc5f3b540e[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 17:55:56 2021 +0800
+
+    Update _config.yml
+
+[33mcommit 01df5ab4052146e46ef13bca4abcdbed2d9affdd[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 11:40:15 2021 +0800
+
+    Update baseurl
+
+[33mcommit 28c26dd1fe56d5eeaba8633a944468b6c6c8db9d[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Sat Mar 13 11:38:04 2021 +0800
+
+    Upload the blog file to github
+
+[33mcommit 21c8fcc02e816f34d18a7d5f9fd9add4d05d8964[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Fri Mar 12 12:46:48 2021 +0800
+
+    Update README.MD
+
+[33mcommit ba8f8fe3a79d720c72011c5dc064e2cf763b814c[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Thu Mar 11 18:20:02 2021 +0800
+
+    Testing Connection
+
+[33mcommit bdcf3991a8d236637099971fc9d80f0a10b03e64[m
+Author: Mat CHAN <klchan.358@gmail.com>
+Date:   Thu Mar 11 18:02:47 2021 +0800
+
+    Init

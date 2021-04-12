@@ -1,0 +1,61 @@
+baseURL = "https://mattchannn.github.io"
+languageCode = "en-us"
+title = "Mat's Blog"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Mat - All rights reserved"
+enableEmoji = true
+publishDir = "public"
+
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+[params]
+logo = "/images/logo.png"
+description = "the clean blog!"
+backgroundImage = "/images/background-image.jpg"
+
+#mailchimp = "you can provide a mailchimp-link here"
+[params.author]
+name = "Mat CHAN"
+thumbnail = "/images/author.png"
+description = "Author"
+
+[params.index]
+## picture = "/images/author.png"
+## title = "Mat CHAN"
+subtitle = "Welcome to Mat's Blog! A blog for technical guy, developers and mostly for myself."
+##mdtext = '''
+### Currently trying to get this blog running, still don't know what the blog will be about!\
+### **This textblock is a demonstration of the mdtext-param.**\
+### ### This is a markdown heading
+### '''
+mdtext = '''
+This website is served as a place that contains [blog posts](/blog) and [cheatsheets](/doc).
+'''
+alertbar = false
+
+[params.social]
+github = "mattchannn"
+linkedin = "mat-c-048371154"
+xing = "<username>"
+medium = "<username>"
+twitter = "<username>"
+instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+name = "Blog"
+weight = 100
+identifier = "blog"
+url = "/blog"
+
+## [[menu.main]]
+## name = "About Me"
+## identifier = "about"
+## weight = 200
+## url = "/"
+[[menu.main]]
+name = "Doc"
+identifier = "Doc"
+weight = 200
+url = "/doc"
