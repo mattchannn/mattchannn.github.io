@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home Page on Mat&#39;s Blog</title>
-    <link>https://example.com/</link>
+    <link>https://mattchannn.github.io/</link>
     <description>Recent content in Home Page on Mat&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Mat - All rights reserved</copyright>
-    <lastBuildDate>Fri, 26 Mar 2021 11:12:00 +0200</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 11:12:00 +0200</lastBuildDate><atom:link href="https://mattchannn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documentation</title>
-      <link>https://example.com/doc/</link>
+      <link>https://mattchannn.github.io/doc/</link>
       <pubDate>Fri, 26 Mar 2021 11:12:00 +0200</pubDate>
       
-      <guid>https://example.com/doc/</guid>
+      <guid>https://mattchannn.github.io/doc/</guid>
       <description>Git Command $ ssh-keygen -t ed25519 -C &amp;quot;mat.chan@example.copm&amp;quot;  For Linux/Windows Powershell use only.
 -t “Type” This option specifies the type of key to be created.</description>
     </item>
     
     <item>
       <title>Documentation</title>
-      <link>https://example.com/static/unused/</link>
+      <link>https://mattchannn.github.io/static/unused/</link>
       <pubDate>Fri, 26 Mar 2021 11:12:00 +0200</pubDate>
       
-      <guid>https://example.com/static/unused/</guid>
+      <guid>https://mattchannn.github.io/static/unused/</guid>
       <description>Git Command $ eval ssh-agent -s 1234Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum.</description>
     </item>
     
     <item>
       <title>Git Message 如何做好 Version Control</title>
-      <link>https://example.com/blog/git-message-control/</link>
+      <link>https://mattchannn.github.io/blog/git-message-control/</link>
       <pubDate>Fri, 15 Jan 2021 11:17:14 +0200</pubDate>
       
-      <guid>https://example.com/blog/git-message-control/</guid>
+      <guid>https://mattchannn.github.io/blog/git-message-control/</guid>
       <description>如何做好Message Control Update, Minor Update, Fix&amp;hellip; 這個就是我工作時看到commit message的日常。然而，一個有水準的軟件工程師，除了代碼要寫的好，也要讓將來接替你位置的人，看得懂你的遺產，避免造成太多技術負債。
 根據國外AngularJS團隊所提出的Git Commit Message Convention，commit message的格式如下：
 Header: &amp;lt;commit type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;subject&amp;gt;&amp;lt;BLANK LINE&amp;gt;Body:&amp;lt;BLANK LINE&amp;gt;Footer:請注意 所有git commit message都不能超過100個字元，因為是為了讓git使用者可以更容易看懂你的commit。 規範 首先從Header說起，commit type可以分為數項</description>

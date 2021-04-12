@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mat&#39;s Blog</title>
-    <link>https://example.com/tags/</link>
+    <link>https://mattchannn.github.io/tags/</link>
     <description>Recent content in Tags on Mat&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Mat - All rights reserved</copyright>
-    <lastBuildDate>Fri, 15 Jan 2021 11:17:14 +0200</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 11:17:14 +0200</lastBuildDate><atom:link href="https://mattchannn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>commit</title>
-      <link>https://example.com/tags/commit/</link>
+      <link>https://mattchannn.github.io/tags/commit/</link>
       <pubDate>Fri, 15 Jan 2021 11:17:14 +0200</pubDate>
       
-      <guid>https://example.com/tags/commit/</guid>
+      <guid>https://mattchannn.github.io/tags/commit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://example.com/tags/github/</link>
+      <link>https://mattchannn.github.io/tags/github/</link>
       <pubDate>Fri, 15 Jan 2021 11:17:14 +0200</pubDate>
       
-      <guid>https://example.com/tags/github/</guid>
+      <guid>https://mattchannn.github.io/tags/github/</guid>
       <description></description>
     </item>
     
