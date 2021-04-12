@@ -428,11 +428,11 @@
 	path = hugo-minimalist-spa
 	url = https://github.com/SAGGameDeveloper/hugo-minimalist-spa.git
 [submodule "mediumish-gohugo-theme"]
-	path = mediumish-gohugo-theme
+	path = themes/mediumish-gohugo-theme
 	url = https://github.com/lgaida/mediumish-gohugo-theme.git
 [submodule "minimal-bootstrap-hugo-theme"]
 	path = minimal-bootstrap-hugo-theme
-	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git
+	url = git@github.com:zwbetz-gh/minimal-bootstrap-hugo-theme.git
 [submodule "hugo-alageek-theme"]
 	path = hugo-alageek-theme
 	url = https://github.com/gkmngrgn/hugo-alageek-theme.git
