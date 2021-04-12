@@ -23,3 +23,6 @@ Go to your Hugo site folder
 * [register a deploy key](https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/)
 * define workflow
   * ${{ secrets.ACTIONS_DEPLOY_KEY }} should follow the naming convention of secret of the repo
+
+# Reference
+1. [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
