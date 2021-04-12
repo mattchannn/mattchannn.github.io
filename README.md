@@ -18,3 +18,8 @@ Go to your Hugo site folder
 >
 > Run `hugo server -w -v`
 
+# Automate deployment via GitHub Actions
+* create a dir (.github/workflows) and a file (gh-pages.yml)
+* [register a deploy key](https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/)
+* define workflow
+  * ${{ secrets.ACTIONS_DEPLOY_KEY }} should follow the naming convention of secret of the repo
