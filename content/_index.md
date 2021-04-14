@@ -1,5 +1,5 @@
 ---
 title: "Home Page"
-cssTitle: "index"
+cname: "index"
 date: 2021-03-26T11:12:00+02:00
 ---

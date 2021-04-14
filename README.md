@@ -9,7 +9,7 @@ See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo/)
 Go to your Hugo site folder
 >　$ cd themes
 >
->　$ git clone https://github.com/lgaida/mediumish-gohugo-theme
+>　$ git clone https://github.com/lgaida/mediumish-gohugo-theme themes/mediumish-gohugo-theme
 
 # Run Hugo Server
 > Run `hugo server -w -v`
