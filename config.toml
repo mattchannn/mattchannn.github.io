@@ -6,6 +6,7 @@ summaryLength = 25
 copyright = "Mat - All rights reserved"
 enableEmoji = true
 publishDir = "public"
+assetDir = "/static"
 
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
@@ -13,6 +14,7 @@ publishDir = "public"
 logo = "/images/logo.png"
 description = "the clean blog!"
 backgroundImage = "/images/background-image.jpg"
+customCSS = ["/css/list.css"]
 
 #mailchimp = "you can provide a mailchimp-link here"
 [params.author]
