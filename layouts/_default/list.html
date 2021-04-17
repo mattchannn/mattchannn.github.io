@@ -3,19 +3,22 @@
 {{ end }}
 
 {{ define "main" }}
-    {{- partial "_shared/title.html" . -}}
+    <div class="quotes text-center">
+        <i>While there's life, there's hope.</i>
+        <p>- Stephen Hawking</p>
+    </div>
     <div class="box list-page">
         {{ $single := len (where .Pages ".Params.tags" "ne" nil) }}
             {{ if gt $single 0 }}
                 <!-- Sidebar -->
-                <div class="col-md-3">
+                <div class="col-md-2">
                 {{ partial "list-partials/sidebar-tags.html" . }}
                 </div>
             {{ else }}
             <div class="container content mt-3">  
             {{ end }}
         {{if gt $single 0 }}
-        <div class="col-md-9">
+        <div class="col-md-10">
         {{ else }}
         <div class="main-content">
         {{ end }}

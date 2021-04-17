@@ -3,3 +3,45 @@
     flex-wrap: nowrap;
     justify-content: center;
 }
+
+.tags-md {
+    color: #666;
+    font-weight: 400;
+    line-height: 1rem;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    vertical-align: middle;
+}
+
+.tags-md li {
+    padding: 7px 3px;
+    display: inline-block;
+}
+
+.tags-md a {
+    font-size: .75rem;
+    padding: .25rem 0.75rem;
+    border: 1px solid #e4dfdf;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #959595;
+    padding: .2rem 0.5rem;
+    font-size: .65rem;
+    vertical-align: middle;
+}
+
+.feature-tag {
+    color: #959595;
+    margin-bottom: 0;
+}
+
+.card-group {
+    margin: 0 1.5% 5% 1.5%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    border-radius: 5px;
+}
+
+.card-group .card {
+    padding: 2%;
+}
