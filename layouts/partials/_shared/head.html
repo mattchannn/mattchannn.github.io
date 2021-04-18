@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link href="{{ " /css/medium.css " | urlize | relURL }}" rel="stylesheet">
     <link href="{{ " /css/additional.css " | urlize | relURL }}" rel="stylesheet">
+    <link href="{{ " /css/list.css " | urlize | relURL }}" rel="stylesheet">
 
     <!-- Custom css -->
     {{ range .Site.Params.customCSS -}} 
         {{ $style := resources.Get . }}
-        <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen">  
+        <!-- <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen"> -->
     {{- end }}
 </head>
