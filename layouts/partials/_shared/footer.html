@@ -1,18 +1,60 @@
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 text-center text-lg-left">
-                &copy; Copyright {{ .Site.Copyright }}
-            </div>
-            <!--
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" rel="noopener" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
-            </div>
-            -->
-        </div>
-    </div>
+
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+  <!-- Social icons -->
+  <div class="pb-2 mt-5 pt-4">
+    {{ if $.Site.Params.social.github }}
+      <a href="{{ $.Site.Params.social.github }} " target="_blank" rel="noopener"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>    
+    {{ end }}
+    {{ if $.Site.Params.social.linkedin }}
+      <a href="{{ $.Site.Params.social.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin-in mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+    {{ if $.Site.Params.social.facebook }}
+      <a href="{{ $.Site.Params.social.facebook }}" target="_blank" rel="noopener"><i class="fab fa-facebook-f mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+    {{ if $.Site.Params.social.googleplus }}
+    <a href="{{ $.Site.Params.social.googleplus }}" target="_blank" rel="noopener"><i class="fab fa-google-plus-g mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+    {{ if $.Site.Params.social.twitter }}
+        <a href="{{ $.Site.Params.social.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+    {{ if $.Site.Params.social.instagram }}
+        <a href="{{ $.Site.Params.social.instagram }}" target="_blank" rel="noopener"><i class="fab fa-instagram mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+    {{ if $.Site.Params.social.px500 }}
+        <a href="{{ $.Site.Params.social.px500 }}" target="_blank" rel="noopener"><i class="fab fa-500px mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+
+    {{ if $.Site.Params.social.email }}
+        <a href="mailto:{{ $.Site.Params.social.email }}"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+    {{ if and $.Site.Params.include_rss $.RSSLink }}
+        <a href="{{ $.RSSLink }}"><i class="fas fa-rss mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+
+    {{ if and $.Site.Params.i18n_flags $.IsTranslated }}
+        {{ range .Translations }}
+            <a href="{{ .Permalink }}"><img class="icon flag mr-3" src="{{ $.Site.BaseURL }}img/flags/{{ $.Lang }}.svg"></a>
+        {{ end }}
+    {{ end }}
+
+  </div>
+  <!-- Social icons -->
+
+  <!-- Copyright -->
+  <div class="copyright pt-3 pb-4">
+    <span>Copyright 2020 - {{ now.Year }} &copy; <a href="https://github.com/mattchannn">Mat CHAN</a> | All Rights Reserved</span>
+  </div>
+  <!--/.Copyright-->
+
 </footer>
-<!-- End Footer
-================================================== -->
+<!--/.Footer-->

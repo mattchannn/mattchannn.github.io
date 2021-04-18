@@ -6,13 +6,15 @@ summaryLength = 25
 copyright = "Mat - All rights reserved"
 enableEmoji = true
 publishDir = "public"
+assetDir = "/static"
 
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 [params]
-logo = "/images/logo.png"
+logo = "/images/blog-logo.png"
 description = "the clean blog!"
 backgroundImage = "/images/background-image.jpg"
+customCSS = ["/css/list.css"]
 
 #mailchimp = "you can provide a mailchimp-link here"
 [params.author]
@@ -35,12 +37,8 @@ This website is served as a place that contains [blog posts](/blog) and [cheatsh
 alertbar = false
 
 [params.social]
-github = "mattchannn"
-linkedin = "mat-c-048371154"
-xing = "<username>"
-medium = "<username>"
-twitter = "<username>"
-instagram = "<username>"
+github = "https://github.com/mattchannn"
+linkedin = "https://www.linkedin.com/in/mat-c-048371154/"
 
 ## Main Menu
 [[menu.main]]

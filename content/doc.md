@@ -7,7 +7,7 @@ isShared: true
 ---
 
 ## Git Command
-    $ ssh-keygen -t ed25519 -C "mat.chan@example.copm"
+    $ ssh-keygen -t ed25519 -C "mat.chan@example.com"
 
 > For Linux/Windows Powershell use only.
 >

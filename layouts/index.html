@@ -1,5 +1,5 @@
 {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define "main" }}
-<div class="main-content {{ .Page.Params.cssTitle}}">
+<div class="main-content {{ .Page.Params.cname}} index-page">
     <header class="text-center title-header">
         {{ with .Site.Params.index.picture }}
         <img src="{{ . | urlize | relURL }}" class="rounded-circle text-center index-image"> {{ end }}
