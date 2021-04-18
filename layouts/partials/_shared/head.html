@@ -16,9 +16,5 @@
     <link href="{{ " /css/additional.css " | urlize | relURL }}" rel="stylesheet">
     <link href="{{ " /css/list.css " | urlize | relURL }}" rel="stylesheet">
 
-    <!-- Custom css -->
-    {{ range .Site.Params.customCSS -}} 
-        {{ $style := resources.Get . }}
-        <!-- <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen"> -->
-    {{- end }}
+
 </head>
