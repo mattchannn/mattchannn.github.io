@@ -4,6 +4,11 @@ Copyright: Sal, WowThemes.net, https://www.wowthemes.net
 License: https://www.wowthemes.net/freebies-license/ 
 */
 
+:root {
+    --hover-blue: #61dafb;
+    --white: #ffffff;
+}
+
 @font-face {
     font-family: charter-regular;
     font-weight: 400;
@@ -28,12 +33,12 @@ body {
 }
 
 a {
-    color: #00ab6b;
+    color: #124c8a;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: var(--hover-blue);
     text-decoration: none;
 }
 
@@ -47,7 +52,7 @@ pre {
     font-size: 14px;
     white-space: pre;
     overflow: auto;
-    background: #fff;
+    background: var(--white);
     border-radius: 0px;
     line-height: 1.6;
     color: #333;
@@ -57,26 +62,40 @@ pre {
 .mediumnavigation {
     background: #20232a;
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
-    height: 80px;
+    height: 108px;
     transition: top 0.2s ease-in-out;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
+@media (min-width: 992px) {
+    .mediumnavigation{
+        height: 60px;
+    }
+}
+
+
 .site-content {
     min-height: 60vh;
     /* padding-top: 1.5rem; */
-    margin-top: 128px;
+    margin-top: 108px;
     transition: all 0.4s;
+}
+
+@media (min-width: 992px) {
+    .site-content{
+        margin-top: calc(72px + 8rem);
+    }
 }
 
 .main-content.index {
     margin-top: 40vh;
 }
 
-.site-content>.container {
-    min-height: 1000px;
+.site-content > .container {
+    min-height: 50vh;
     margin: 0 !important;
-    max-width: none;
+    max-width: none;    
+    padding: 0px 5rem;
 }
 
 .site-content.page .main-content {
@@ -132,7 +151,7 @@ section.recent-posts {
         color: rgba(255, 255,255);
     }
     .navbar-expand-lg .navbar-nav .nav-link:hover {
-        color: #61dafb;
+        color: var(--hover-blue);
     }
     .navbar-expand-lg .navbar-nav .nav-link:focus {
         outline: 0;
@@ -356,19 +375,19 @@ span.post-read-more a:hover {
     margin-bottom: 1rem;
 }
 
-.footer {
-    border-top: 1px solid rgba(0, 0, 0, .1) !important;
-    padding-bottom: 12px;
-    font-size: 0.8rem;
-    color: rgba(0, 0, 0, .44);
-    margin-bottom: 20px;
+.page-footer {
     position: relative;
-    background: #fff;
+    background: #20232a;
 }
 
-.footer .row {
-    font-family: sohne-regular, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: rgba(41, 41, 41, 1);
+.page-footer i {
+    color: var(--white);
+    font-size: 1.3rem;
+}
+
+.page-footer .copyright {
+    color: var(--white);
+    font-size: 1rem;
 }
 
 .link-dark {
@@ -504,10 +523,6 @@ blockquote {
     .listfeaturedtag .card-block {
         padding: 20px;
     }
-    .footer {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
 }
 
 @media (max-width:1024px) {
@@ -606,7 +621,7 @@ ul.tags li a:hover {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: var(--white);
     width: 100%;
     padding: 14px 0;
     z-index: 1;
@@ -708,7 +723,7 @@ ul.tags li a:hover {
 
 .sociallinks a {
     background: #666;
-    color: #fff;
+    color: var(--white);
     width: 22px;
     height: 22px;
     display: inline-block;
@@ -814,7 +829,7 @@ iframe {
 
 .transpdark {
     background: rgba(0, 0, 0, 0.75);
-    color: #fff;
+    color: var(--white);
 }
 
 @media (min-width:768px) {
@@ -829,7 +844,7 @@ iframe {
     }
     .jumbotron.fortags .col-md-4 {
         background: rgba(0, 0, 0, 0.75);
-        color: #fff;
+        color: var(--white);
     }
     .jumbotron.fortags .row {
         margin: 0;
@@ -848,7 +863,7 @@ iframe {
     padding: 5px 10px 7px;
     background: #222;
     border-radius: 30px;
-    color: #fff;
+    color: var(--white);
     font-weight: 500;
     text-transform: lowercase;
     font-size: 0.8rem;
@@ -901,10 +916,15 @@ iframe {
 
 .quotes {
     font-family: Spectral,Georgia,Cambria,Times New Roman,Times,serif;
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     line-height: 1;
     margin-bottom: 5rem;
-    margin-top: 10rem;
+}
+
+@media (min-width: 992px) {
+    .quotes {
+        font-size: 3.75rem;
+    }
 }
 
 .quotes p {
@@ -914,4 +934,6 @@ iframe {
     text-align: right;
     margin-right: 4rem;
 }
+
+
 
