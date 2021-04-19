@@ -1,7 +1,7 @@
 ---
 title: "Git Message 如何做好 Version Control"
-date: 2021-01-15T11:17:14+02:00
-publishdate: 2021-01-15T11:17:14+02:00
+date: 2021-04-15T11:17:14+02:00
+publishdate: 2021-04-15T11:17:14+02:00
 image: "/images/blog/1.jpg"
 tags: ["github", "commit",]
 comments: false
