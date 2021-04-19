@@ -3,7 +3,7 @@ title: "淺談null跟undefined"
 date: 2021-04-21T11:17:14+02:00
 publishdate: 2021-04-19T11:17:14+02:00
 image: "/images/blog/1.jpg"
-tags: ["javascript",]
+tags: ["javascript", ]
 comments: true
 ---
 # Null跟Undefined的對決
