@@ -6,6 +6,16 @@ isShared: true
 
 ---
 
+## [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist#webfonts)
+1. Head Tag
+2. HTML
+3. Webfont
+4. CSS
+5. Image
+6. Javascript
+7. Web Security 
+8. SEO ...
+
 ## Git Command
     $ ssh-keygen -t ed25519 -C "mat.chan@example.com"
 
