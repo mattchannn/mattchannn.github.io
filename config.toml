@@ -16,6 +16,9 @@ description = "the clean blog!"
 backgroundImage = "/images/background-image.jpg"
 customCSS = ["/css/list.css"]
 
+[params.meta]
+description = "Matt's Blog is a blog that is powered by HUGO, which provides blog posts and technical documentation"
+
 #mailchimp = "you can provide a mailchimp-link here"
 [params.author]
 name = "Mat CHAN"
