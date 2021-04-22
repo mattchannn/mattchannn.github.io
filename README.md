@@ -31,6 +31,12 @@ Go to your Hugo site folder
 1. [FreeLogoDesign](https://www.freelogodesign.org/)
     - [logo editor](https://editor.freelogodesign.org/en/logo/edit/4432f994c8104f138d4054d32cd54535?template=22104323&category=11&companyName=M)
 
+# Powered By
+1. [Bootstrap](https://getbootstrap.com/)
+2. [Font Awesome 6](https://fontawesome.com/)
+3. [Add This](https://www.addthis.com/)
+
+
 # Reference
 1. [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 2. [page variable & site variable](https://gohugo.io/variables/page/)
