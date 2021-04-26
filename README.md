@@ -21,6 +21,31 @@ Go to your Hugo site folder
 >
 > Run `hugo server -w -v`
 
+## Folder Structure
+
+```sh
+
+├── .github # Stored the github workflow actions, for auto build pipeline
+├── archetypes # Template consisted of pre-configured front matter for new posts. Output:
+├── content # Stored home page, single page and list page (e.g.: blog posts)
+├── layout # Stored page layout, template
+|   ├── 
+|   ├── 
+|   |   ├── 
+|   |   |   └── 
+|   |   └── 
+├── public # Output folder when building the site
+├── static # Stored resources that a website need
+|   ├── css
+|   ├── fonts
+|   ├── images
+|   ├── js
+├── themes # (Optional) Place of theme resides
+├── .gitignore
+├── .gitmodules # Default: modules to build hugo site due to the config in config.toml
+├── config.toml # Site config file
+```
+
 # Automate deployment via GitHub Actions
 * create a dir (.github/workflows) and a file (<_sampleName_>.yml)
 * [register a deploy key](https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/)

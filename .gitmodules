@@ -1,3 +1,6 @@
+[submodule "mediumish-gohugo-theme"]
+	path = themes/mediumish-gohugo-theme
+	url = https://github.com/lgaida/mediumish-gohugo-theme.git
 [submodule "hyde"]
 	path = hyde
 	url = https://github.com/spf13/hyde.git
@@ -427,9 +430,6 @@
 [submodule "hugo-minimalist-spa"]
 	path = hugo-minimalist-spa
 	url = https://github.com/SAGGameDeveloper/hugo-minimalist-spa.git
-[submodule "mediumish-gohugo-theme"]
-	path = themes/mediumish-gohugo-theme
-	url = https://github.com/lgaida/mediumish-gohugo-theme.git
 [submodule "minimal-bootstrap-hugo-theme"]
 	path = minimal-bootstrap-hugo-theme
 	url = git@github.com:zwbetz-gh/minimal-bootstrap-hugo-theme.git
