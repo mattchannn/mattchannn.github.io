@@ -8,6 +8,18 @@ See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo/)
 Reference
 > [AllinOne Theme](https://github.com/orianna-zzo/AllinOne)
 
+# Before Jump Into the Project
+Contributor must know what [content organization](https://gohugo.io/content-management/organization/) is.
+
+Inside /content/, we have page bundles which can be a leaf bundle or branch bundle. 
+We can have a path breakdown in HUGO, for example, a single page content (null-undefined.md)
+```sh
+
+```
+
+> Page Bundle
+  - can be a leaf bundle or branch bundle
+
 # Installation
 Go to your Hugo site folder
 >　$ cd themes
@@ -60,7 +72,6 @@ Go to your Hugo site folder
 1. [Bootstrap](https://getbootstrap.com/)
 2. [Font Awesome 6](https://fontawesome.com/)
 3. [Add This](https://www.addthis.com/)
-
 
 # Reference
 1. [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
