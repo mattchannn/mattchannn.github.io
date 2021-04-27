@@ -35,4 +35,9 @@ Java Spring Annotation
     - https://docs.spring.io/spring-boot/docs/1.5.2.RELEASE/reference/html/boot-features-testing.html
         - `and spring-boot-test-autoconfigure supports auto-configuration for tests.`
 
+Intellij Shortcut
+- SHIFT (double tap)
+    - find class globally
+- CTRL + SHIFT + F
+    - search string throughout the whole folder
 

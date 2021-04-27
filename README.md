@@ -9,16 +9,31 @@ Reference
 > [AllinOne Theme](https://github.com/orianna-zzo/AllinOne)
 
 # Before Jump Into the Project
-Contributor must know what [content organization](https://gohugo.io/content-management/organization/) is.
+Contributors must know what [content organization](https://gohugo.io/content-management/organization/), page template and taxonomoy are.
 
 Inside /content/, we have page bundles which can be a leaf bundle or branch bundle. 
 We can have a path breakdown in HUGO, for example, a single page content (null-undefined.md)
-```sh
-
-```
 
 > Page Bundle
+
   - can be a leaf bundle or branch bundle
+
+> Taxonomies
+
+  - Can treat this as a custom categories for your pages.
+Default taxonomies by HUGO: **tags** and **categories**
+Once you have declared your own custom taxonomies (or you did not disable the default taxonomies). HUGO would generate a page regarding to your taxonomies using [taxonomy template](https://gohugo.io/templates/taxonomy-templates/). 
+
+
+Taxonomy Structure
+```sh
+├── tag # taxnomies
+|   ├── git # terms
+|       └── abc.md # value
+|   ├── javascript # terms
+        └── def.md # value
+```
+For example, a taxonomy called **categories** would have a page listed all terms within the taxonomy (a.k.a categories) and within each terms, a page listed all value (blog post page) will be generated as well.
 
 # Installation
 Go to your Hugo site folder
