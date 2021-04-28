@@ -8,17 +8,28 @@ See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo/)
 Reference
 > [AllinOne Theme](https://github.com/orianna-zzo/AllinOne)
 
+
 # Before Jump Into the Project
 Contributors must know what [content organization](https://gohugo.io/content-management/organization/), page template and taxonomoy are.
+Basically under the whole content organization, we could divide the layout type into 3 types and each of them are responsible to a corresponding page bundle.
 
-Inside /content/, we have page bundles which can be a leaf bundle or branch bundle. 
-We can have a path breakdown in HUGO, for example, a single page content (null-undefined.md)
+1. Home page (is also a kind of branch bundle)
+    - Home page itself would have a home page template (layouts/index.html). `_index.md` can control front matter and content of a home page such as `{{ .Title }}` & `{{ .Content }}`.
 
-> Page Bundle
+2. Leaf bundle
 
-  - can be a leaf bundle or branch bundle
+    - It references a _**single**_ layout type
+    - Page bundle is to manage your own page resources (make sure other bundle couldn't touch it!).
+    - index file name (optional): `index.md`
 
-> Taxonomies
+3. Branch bundle
+    - It references a _**list**_ layout type
+    - Page bundle is to manage your own page resources (make sure other bundle couldn't touch it!).
+    - index file name (optional): `_index.md`
+
+
+
+Taxonomies
 
   - Can treat this as a custom categories for your pages.
 Default taxonomies by HUGO: **tags** and **categories**
@@ -34,6 +45,15 @@ Taxonomy Structure
         └── def.md # value
 ```
 For example, a taxonomy called **categories** would have a page listed all terms within the taxonomy (a.k.a categories) and within each terms, a page listed all value (blog post page) will be generated as well.
+
+
+# Content Format - Goldmark
+In this project, Goldmark is used after HUGO release [v0.60.0](https://gohugo.io/news/0.60.0-relnotes/).
+
+[Configuration](https://gohugo.io/getting-started/configuration-markup/)
+  1. unsafe // if you would like to use inline HTML in a markdown file
+  2. attribute // _TO BE DISCOVERD_
+
 
 # Installation
 Go to your Hugo site folder
