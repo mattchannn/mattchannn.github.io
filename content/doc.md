@@ -9,7 +9,7 @@ isShared: true
 ## Intellij
 > auto format
     
-- CTRL + SHIFT + L
+- CTRL + ALT + L
 
 > problem solving shortcut
     
