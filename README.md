@@ -1,12 +1,9 @@
 # Theme Used
-
 [Mediumish GoHugo Theme](https://github.com/lgaida/mediumish-gohugo-theme)
-This theme for gohugo is a customized port based on the Mediumish Jekyll-Theme by WowThemesNet. The original theme ships with a few more features than this ported version but i also added features which the original version did not include.
+This theme for gohugo is a customized port based on the Mediumish Jekyll-Theme by WowThemesNet. The original theme ships with a few more features than this ported version but i also added features which the original version did not include. See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo/)
 
-See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo/)
-
-Reference
-> [AllinOne Theme](https://github.com/orianna-zzo/AllinOne)
+Other themes have been referenced
+- [AllinOne Theme](https://github.com/orianna-zzo/AllinOne)
 
 
 # Before Jump Into the Project
@@ -29,6 +26,7 @@ Basically under the whole content organization, we could divide the layout type 
 
 
 
+
 Taxonomies
 
   - Can treat this as a custom categories for your pages.
@@ -45,6 +43,7 @@ Taxonomy Structure
         └── def.md # value
 ```
 For example, a taxonomy called **categories** would have a page listed all terms within the taxonomy (a.k.a categories) and within each terms, a page listed all value (blog post page) will be generated as well.
+
 
 
 # Content Format - Goldmark
