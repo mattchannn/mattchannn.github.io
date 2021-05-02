@@ -7,6 +7,9 @@ isShared: true
 ---
 
 ## Intellij
+> Shortcut for System.out.println("");
+- type _sout_
+
 > auto format
     
 - CTRL + ALT + L
