@@ -45,6 +45,28 @@ Taxonomy Structure
 For example, a taxonomy called **categories** would have a page listed all terms within the taxonomy (a.k.a categories) and within each terms, a page listed all value (blog post page) will be generated as well.
 
 
+Front Matter
+  - Apart from the pre-defined/user-defined front matter key that you can use in your config.toml. `cascade` can also be used to indicate a value from **ancestor to descendents**.
+  
+  Lets use the below folder structure as an example
+
+```sh
+├── /content/blog # root folder
+|   ├── _index.md # branch bundle
+|   ├── blog-post-1 
+|       └── blogpost1.md
+|   ├── blog-post-2
+|       └── blogpost2.md
+```
+Config in `_index.md`
+  ```bash
+  [cascade]
+      banner: 'images/sample.jpg'
+  ```
+
+It means .Params.banner (value => images/sample.jpg) can be access from each of the children under /content/blog (e.g.: `blogpost1.md` & `blogpost2.md`) unless the below scenarios happen.
+1. Descendants (e.g.: `blogpost1.md`) has its own banner value set. The new value will override the one you set in `_index.md`.
+2. A closer node has its own banner value set. Technically speaking, HUGO would look for the closest node and its cascaded banner value.
 
 # Content Format - Goldmark
 In this project, Goldmark is used after HUGO release [v0.60.0](https://gohugo.io/news/0.60.0-relnotes/).
