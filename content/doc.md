@@ -14,6 +14,9 @@ isShared: true
     
 - CTRL + ALT + L
 
+> quick code shortcut
+- ALT + INSERT
+
 > problem solving shortcut
     
 - hover to the class and press ALT + ENTER
