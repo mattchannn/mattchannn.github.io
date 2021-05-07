@@ -124,6 +124,10 @@ Go to your Hugo site folder
 1. [FreeLogoDesign](https://www.freelogodesign.org/)
     - [logo editor](https://editor.freelogodesign.org/en/logo/edit/4432f994c8104f138d4054d32cd54535?template=22104323&category=11&companyName=M)
 
+# Code Linting
+[SonarQube]() for IDE such as Visual Studio Code
+[SonarCloud](https://sonarcloud.io/projects) for public projects
+
 # Powered By
 1. [Bootstrap](https://getbootstrap.com/)
 2. [Font Awesome 6](https://fontawesome.com/)
