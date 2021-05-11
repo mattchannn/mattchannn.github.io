@@ -5,6 +5,8 @@ type: "post"
 isShared: false
 draft: true
 ---
+[How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
+
 RESTful API
     - ref
         - https://blog.bearer.sh/what-is-a-rest-api/#:~:text=Before%20REST%2C%20the%20main%20approach,Wide%20Web%20Consortium%20(W3C).
