@@ -5,6 +5,7 @@ theme = "mediumish-gohugo-theme"
 summaryLength = 25
 copyright = "Mat - All rights reserved"
 enableEmoji = true
+enableRobotsTXT = true
 publishDir = "public"
 assetDir = "/static"
 

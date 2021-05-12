@@ -2,8 +2,9 @@
 [Mediumish GoHugo Theme](https://github.com/lgaida/mediumish-gohugo-theme)
 This theme for gohugo is a customized port based on the Mediumish Jekyll-Theme by WowThemesNet. The original theme ships with a few more features than this ported version but i also added features which the original version did not include. See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo/)
 
-Other themes have been referenced
+Other themes have inspired Mat
 - [AllinOne Theme](https://github.com/orianna-zzo/AllinOne)
+- [Hugo Theme Even](https://github.com/olOwOlo/hugo-theme-even)
 
 
 # Before Jump Into the Project
@@ -25,13 +26,19 @@ Basically under the whole content organization, we could divide the layout type 
     - index file name (optional): `_index.md`
 
 
+Other than `single.html` and `list.html` you can use in _default folder. Thanks to [template lookup order](https://gohugo.io/templates/lookup-order/), you can also define your own section (i.e.: documentation) and use `single.html` & `list.html` in a newly created folder called `documentation`.
+
+[Content type](https://gohugo.io/content-management/types/#readout) is being used with section template.
+**Please make sure that the content type (if any) has the same name with your layout folder (i.e.: documentation)**
+
+It will cause an error and make your template looks up to _default folder.
 
 
-Taxonomies
+## Taxonomies
 
-  - Can treat this as a custom categories for your pages.
-Default taxonomies by HUGO: **tags** and **categories**
-Once you have declared your own custom taxonomies (or you did not disable the default taxonomies). HUGO would generate a page regarding to your taxonomies using [taxonomy template](https://gohugo.io/templates/taxonomy-templates/). 
+  - You can treat this as a custom categories for your pages.
+      - Default taxonomies by HUGO: **tags** and **categories**
+  - Once you have declared your own custom taxonomies. HUGO would generate a page regarding to your taxonomies using [taxonomy template](https://gohugo.io/templates/taxonomy-templates/). 
 
 
 Taxonomy Structure
@@ -45,7 +52,7 @@ Taxonomy Structure
 For example, a taxonomy called **categories** would have a page listed all terms within the taxonomy (a.k.a categories) and within each terms, a page listed all value (blog post page) will be generated as well.
 
 
-Front Matter
+## Front Matter
   - Apart from the pre-defined/user-defined front matter key that you can use in your config.toml. `cascade` can also be used to indicate a value from **ancestor to descendents**.
   
   Lets use the below folder structure as an example
