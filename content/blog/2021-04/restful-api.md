@@ -12,7 +12,7 @@ comments: true
 
 ### 建設RESTful API
 
-要建設RESTful API，就先要符合以下6大規範(constraints)
+架設RESTful API之前，就先要符合以下6大規範(constraints)
 * 需跟隨 客戶端/服務器 架構
     - client server 就是實現Separation of Concerns的最佳例子
         - user interface concern vs data storage concern
@@ -37,4 +37,5 @@ comments: true
 &nbsp;
 ### 參考資料
 [Fielding Dissertation: CHAPTER 5 Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+
 [Day04 - REST 條件&原則](https://ithelp.ithome.com.tw/articles/10203755)
