@@ -39,3 +39,5 @@ comments: true
 [Fielding Dissertation: CHAPTER 5 Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 
 [Day04 - REST 條件&原則](https://ithelp.ithome.com.tw/articles/10203755)
+
+[理解 RESTful API 設計規範](https://www.gushiciku.cn/pl/pvcU/zh-hk)
