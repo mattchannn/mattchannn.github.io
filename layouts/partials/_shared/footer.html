@@ -37,9 +37,12 @@
         <a href="mailto:{{ $.Site.Params.social.email }}"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
     {{ end }}
 
+    <!--
     {{ if and $.Site.Params.include_rss $.RSSLink }}
         <a href="{{ $.RSSLink }}"><i class="fas fa-rss mr-3" aria-hidden="true"></i></a>
     {{ end }}
+    -->
+    
 
     {{ if and $.Site.Params.i18n_flags $.IsTranslated }}
         {{ range .Translations }}
