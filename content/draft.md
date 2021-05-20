@@ -11,6 +11,15 @@ RESTful API
     - ref
         - https://blog.bearer.sh/what-is-a-rest-api/#:~:text=Before%20REST%2C%20the%20main%20approach,Wide%20Web%20Consortium%20(W3C).
 
+Content Security Policy
+HTTP Code Status
+
+Javascript
+- promise
+- [type check](https://stackoverflow.com/questions/5113374/javascript-check-if-variable-exists-is-defined-initialized)
+    - [difference between null & undefined](https://stackoverflow.com/questions/20687983/whats-the-difference-between-a-null-and-a-null)
+- [Map VS Object](https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373)
+- optional chaining
 
 Java Spring
 - assertThat
@@ -25,6 +34,11 @@ Java Spring
             - // got: "Please choose a font"
 - objectMapper
     - serialized a JAVA object to JSON/ deserialized JSON to a JAVA object
+- Get ENUM by constructor
+    - ref
+        - https://www.programiz.com/java-programming/enum-constructor
+- [Constant Utility Class](https://stackoverflow.com/questions/66066/what-is-the-best-way-to-implement-constants-in-java)
+- Should my test be @Transactional?
 
 
 
@@ -43,3 +57,4 @@ Intellij Shortcut
 - CTRL + SHIFT + F
     - search string throughout the whole folder
 
+Object Destructruing
