@@ -11,8 +11,10 @@ RESTful API
     - ref
         - https://blog.bearer.sh/what-is-a-rest-api/#:~:text=Before%20REST%2C%20the%20main%20approach,Wide%20Web%20Consortium%20(W3C).
 
+
 Content Security Policy
 HTTP Code Status
+
 
 Javascript
 - promise
@@ -20,6 +22,8 @@ Javascript
     - [difference between null & undefined](https://stackoverflow.com/questions/20687983/whats-the-difference-between-a-null-and-a-null)
 - [Map VS Object](https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373)
 - optional chaining
+- Object Destructruing
+
 
 Java Spring
 - assertThat
@@ -46,15 +50,15 @@ Java Spring Annotation
 - @JsonIgnore
     - ref
         - https://dzone.com/articles/jackson-annotations-for-json-part-1-serialization
-    
 - @Test
     - https://docs.spring.io/spring-boot/docs/1.5.2.RELEASE/reference/html/boot-features-testing.html
         - `and spring-boot-test-autoconfigure supports auto-configuration for tests.`
+
+Java
+- [Nested Class 解說](https://jchu.cc/2018/02/08-nested-class.html)
 
 Intellij Shortcut
 - SHIFT (double tap)
     - find class globally
 - CTRL + SHIFT + F
     - search string throughout the whole folder
-
-Object Destructruing
