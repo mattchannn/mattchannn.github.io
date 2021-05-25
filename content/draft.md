@@ -5,6 +5,9 @@ type: "post"
 isShared: false
 draft: true
 ---
+Hugo
+    - [Append #ID to Header (using Markdown document type)](https://gohugo.io/content-management/cross-references/#heading-ids)
+
 [How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
 
 RESTful API
@@ -17,6 +20,7 @@ HTTP Code Status
 
 
 Javascript
+- GulpJS
 - promise
 - [type check](https://stackoverflow.com/questions/5113374/javascript-check-if-variable-exists-is-defined-initialized)
     - [difference between null & undefined](https://stackoverflow.com/questions/20687983/whats-the-difference-between-a-null-and-a-null)
