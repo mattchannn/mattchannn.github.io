@@ -1,10 +1,31 @@
 ---
-title: "Documentation"
-date: 2021-03-26T11:12:00+02:00
+# The below config served as single page of documentation section
+# Change the type to documentation if you would like to 
+# use custom layout stored under documentation
+# By default, the layout in _default is used
+title: "Git"
 type: "post"
-isShared: true
+date: 2021-03-26T11:12:00+02:00
+draft: false
 
 ---
+
+## Intellij
+> Shortcut for System.out.println("");
+- type _sout_
+
+> auto format
+    
+- CTRL + ALT + L
+
+> quick code shortcut
+- ALT + INSERT
+
+> problem solving shortcut
+    
+- hover to the class and press ALT + ENTER
+
+> [Ignore step into when use debug mode](https://stackoverflow.com/questions/20575107/how-to-force-intellij-to-only-step-into-my-source-code)
 
 ## [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist#webfonts)
 1. Head Tag
