@@ -36,7 +36,7 @@ subtitle = "Welcome to Mat's Blog! A blog for technical guy, developers and most
 ### ### This is a markdown heading
 ### '''
 mdtext = '''
-This website is served as a place that contains [blog posts](/blog) and [cheatsheets](/doc).
+This website is served as a place that contains [blog posts](/blog) and [cheatsheets](/documentation).
 '''
 alertbar = false
 
@@ -51,13 +51,8 @@ weight = 100
 identifier = "blog"
 url = "/blog"
 
-## [[menu.main]]
-## name = "About Me"
-## identifier = "about"
-## weight = 200
-## url = "/"
 [[menu.main]]
 name = "Doc"
 identifier = "Doc"
 weight = 200
-url = "/doc"
+url = "/documentation"
