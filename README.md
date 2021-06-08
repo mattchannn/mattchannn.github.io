@@ -1,4 +1,6 @@
-# Theme Used
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+## Theme Used
 [Mediumish GoHugo Theme](https://github.com/lgaida/mediumish-gohugo-theme)
 This theme for gohugo is a customized port based on the Mediumish Jekyll-Theme by WowThemesNet. The original theme ships with a few more features than this ported version but i also added features which the original version did not include. See the [Demo](https://lgaida.github.io/mediumish-gohugo-theme-demo/)
 
@@ -7,7 +9,7 @@ Other themes have inspired Mat
 - [Hugo Theme Even](https://github.com/olOwOlo/hugo-theme-even)
 
 
-# Before Jump Into the Project
+## Before Jump Into the Project
 Contributors must know what [content organization](https://gohugo.io/content-management/organization/), page template and taxonomoy are.
 Basically under the whole content organization, we could divide the layout type into 3 types and each of them are responsible to a corresponding page bundle.
 
@@ -75,7 +77,7 @@ It means .Params.banner (value => images/sample.jpg) can be access from each of 
 1. Descendants (e.g.: `blogpost1.md`) has its own banner value set. The new value will override the one you set in `_index.md`.
 2. A closer node has its own banner value set. Technically speaking, HUGO would look for the closest node and its cascaded banner value.
 
-# Content Format - Goldmark
+## Content Format - Goldmark
 In this project, Goldmark is used after HUGO release [v0.60.0](https://gohugo.io/news/0.60.0-relnotes/).
 
 [Configuration](https://gohugo.io/getting-started/configuration-markup/)
@@ -83,13 +85,13 @@ In this project, Goldmark is used after HUGO release [v0.60.0](https://gohugo.io
   2. attribute // _TO BE DISCOVERD_
 
 
-# Installation
+## Installation
 Go to your Hugo site folder
 >　$ cd themes
 >
 >　$ git clone https://github.com/lgaida/mediumish-gohugo-theme themes/mediumish-gohugo-theme
 
-# Run Hugo Server
+## Run Hugo Server
 > Run `hugo server -w -v`
 >
 > OR
@@ -121,26 +123,29 @@ Go to your Hugo site folder
 ├── config.toml # Site config file
 ```
 
-# Automate deployment via GitHub Actions
+## Automate deployment via GitHub Actions
 * create a dir (.github/workflows) and a file (<_sampleName_>.yml)
 * [register a deploy key](https://www.morling.dev/blog/automatically-deploying-hugo-website-via-github-actions/)
 * define workflow
   * ${{ secrets.ACTIONS_DEPLOY_KEY }} should follow the naming convention of secret of the repo
 
-# Blog Icon Provider
+## Blog Icon Provider
 - [FreeLogoDesign](https://www.freelogodesign.org/)
     - [logo editor](https://editor.freelogodesign.org/en/logo/edit/4432f994c8104f138d4054d32cd54535?template=22104323&category=11&companyName=M)
 
-# Code Linting
+## Code Linting
 [SonarQube]() for IDE such as Visual Studio Code
 
 [SonarCloud](https://sonarcloud.io/projects) for public projects
 
-# Powered By
+## Powered By
 1. [Bootstrap](https://getbootstrap.com/)
 2. [Font Awesome 6](https://fontawesome.com/)
 3. [Add This](https://www.addthis.com/)
+4. [Readme.so](https://readme.so/)
+5. [Shields.io](https://shields.io/)
 
-# Reference
+## Reference
 1. [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 2. [page variable & site variable](https://gohugo.io/variables/page/)
+
