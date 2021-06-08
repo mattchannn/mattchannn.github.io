@@ -56,7 +56,7 @@ Java Spring Annotation
         - https://dzone.com/articles/jackson-annotations-for-json-part-1-serialization
 - @Test
     - https://docs.spring.io/spring-boot/docs/1.5.2.RELEASE/reference/html/boot-features-testing.html
-        - `and spring-boot-test-autoconfigure supports auto-configuration for tests.`
+        - and spring-boot-test-autoconfigure supports auto-configuration for tests.
 
 Java
 - [Nested Class 解說](https://jchu.cc/2018/02/08-nested-class.html)
@@ -66,3 +66,10 @@ Intellij Shortcut
     - find class globally
 - CTRL + SHIFT + F
     - search string throughout the whole folder
+
+
+VS Code Config
+- FontFamily
+    - `'cascadia code', Consolas, 'Courier New', monospace`
+- Workbench color theme
+    - Cobalt2 (need to install extensions in your visual studio code workspace)
