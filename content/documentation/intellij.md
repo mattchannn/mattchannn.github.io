@@ -26,6 +26,12 @@ draft: false
 2. Under Project Settings, click Modules and then open the Sources tab on the right.
 3. Right-click the test folder and select New Folder. Name the folder `resources`.
 4. Right-click the new folder and select `Test Resources`.
+```
+If Test Class can't be compiled?
+Please make sure that you need to have test folder not as a sub-folder of src source root 
+but in a separate directory marked as a test source root. 
+And then the Test compile scope will work.
+```
 
 > Problem solving shortcut (such as creating a test class)
 - hover to the class and press ALT + ENTER
