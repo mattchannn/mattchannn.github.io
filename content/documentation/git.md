@@ -10,23 +10,6 @@ draft: false
 
 ---
 
-## Intellij
-> Shortcut for System.out.println("");
-- type _sout_
-
-> auto format
-    
-- CTRL + ALT + L
-
-> quick code shortcut
-- ALT + INSERT
-
-> problem solving shortcut
-    
-- hover to the class and press ALT + ENTER
-
-> [Ignore step into when use debug mode](https://stackoverflow.com/questions/20575107/how-to-force-intellij-to-only-step-into-my-source-code)
-
 ## [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist#webfonts)
 1. Head Tag
 2. HTML
