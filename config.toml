@@ -41,8 +41,8 @@ This website is served as a place that contains [blog posts](/blog) and [cheatsh
 alertbar = false
 
 [params.social]
-github = "https://github.com/mattchannn"
-linkedin = "https://www.linkedin.com/in/mat-c-048371154/"
+github = "mattchannn"
+linkedin = "mat-c-048371154"
 
 ## Main Menu
 [[menu.main]]
