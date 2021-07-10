@@ -68,6 +68,10 @@ Intellij Shortcut
     - search string throughout the whole folder
 
 
+Networking
+- When to use TCP and when to use UDP?
+
+
 VS Code Config
 - FontFamily
     - `'cascadia code', Consolas, 'Courier New', monospace`
