@@ -92,7 +92,7 @@ Go to your Hugo site folder
 >　$ git clone https://github.com/lgaida/mediumish-gohugo-theme themes/mediumish-gohugo-theme
 
 ## Run Hugo Server
-> Run `hugo server -w -v`
+> Run `hugo server`
 >
 > OR
 >
