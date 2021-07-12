@@ -6,16 +6,21 @@ isShared: false
 draft: true
 ---
 
-Hugo - [Append #ID to Header (using Markdown document type)](https://gohugo.io/content-management/cross-references/#heading-ids)
+### Hugo
 
-[How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
+- [Append #ID to Header (using Markdown document type)](https://gohugo.io/content-management/cross-references/#heading-ids)
 
-RESTful API - ref - https://blog.bearer.sh/what-is-a-rest-api/#:~:text=Before%20REST%2C%20the%20main%20approach,Wide%20Web%20Consortium%20(W3C).
+- [How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
 
-Content Security Policy
-HTTP Code Status
+### RESTful API
 
-Javascript
+- https://blog.bearer.sh/what-is-a-rest-api/#:~:text=Before%20REST%2C%20the%20main%20approach,Wide%20Web%20Consortium%20(W3C).
+
+### Content Security Policy
+
+- HTTP Code Status
+
+### Javascript
 
 - GulpJS
 - promise
@@ -26,7 +31,7 @@ Javascript
 - Object Destructruing
 - [Shallow copy vs Deep copy](https://www.javascripttutorial.net/object/3-ways-to-copy-objects-in-javascript/)
 
-Java Spring
+### Java Spring
 
 - assertThat
   - evaluate true/false in JUNIT test case
@@ -46,7 +51,7 @@ Java Spring
 - [Constant Utility Class](https://stackoverflow.com/questions/66066/what-is-the-best-way-to-implement-constants-in-java)
 - Should my test be @Transactional?
 
-Java Spring Annotation
+### Java Spring Annotation
 
 - @JsonIgnore
   - ref
@@ -55,22 +60,22 @@ Java Spring Annotation
   - https://docs.spring.io/spring-boot/docs/1.5.2.RELEASE/reference/html/boot-features-testing.html
     - and spring-boot-test-autoconfigure supports auto-configuration for tests.
 
-Java
+### Java
 
 - [Nested Class 解說](https://jchu.cc/2018/02/08-nested-class.html)
 
-Intellij Shortcut
+### Intellij Shortcut
 
 - SHIFT (double tap)
   - find class globally
 - CTRL + SHIFT + F
   - search string throughout the whole folder
 
-Networking
+### Networking
 
 - When to use TCP and when to use UDP?
 
-VS Code Config
+### VS Code Config
 
 - FontFamily
   - `'cascadia code', Consolas, 'Courier New', monospace`
