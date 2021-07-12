@@ -81,3 +81,7 @@ draft: true
   - `'cascadia code', Consolas, 'Courier New', monospace`
 - Workbench color theme
   - Cobalt2 (need to install extensions in your visual studio code workspace)
+
+### How to create a better README
+
+- [Next Level GitHub Profile README](https://www.youtube.com/watch?v=ECuqb5Tv9qI&ab_channel=codeSTACKr)
