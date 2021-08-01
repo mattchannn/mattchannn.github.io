@@ -389,8 +389,8 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-  font-family: Merriweather;
   font-size: 1.1rem;
+  margin-top: 2rem;
   line-height: 1.84;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -420,7 +420,7 @@ blockquote {
   border: 1px solid #292c33;
   border-radius: 4px;
   color: #d2d2d2;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .featured-image {
@@ -760,7 +760,7 @@ h6 {
 .article-post h4,
 .article-post h5,
 .article-post h6 {
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 1.5rem;
 }
 
