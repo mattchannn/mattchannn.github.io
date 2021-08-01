@@ -1,26 +1,16 @@
 ---
 # The below config served as single page of documentation section
-# Change the type to documentation if you would like to 
+# Change the type to documentation if you would like to
 # use custom layout stored under documentation
 # By default, the layout in _default is used
 title: "Git"
 type: "post"
 date: 2021-03-26T11:12:00+02:00
 draft: false
-
 ---
 
-## [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist#webfonts)
-1. Head Tag
-2. HTML
-3. Webfont
-4. CSS
-5. Image
-6. Javascript
-7. Web Security 
-8. SEO ...
-
 ## Git Command
+
     $ ssh-keygen -t ed25519 -C "mat.chan@example.com"
 
 > For Linux/Windows Powershell use only.
@@ -49,11 +39,12 @@ Add your ssh key to your ssh-agent. **_Please be awared you are in the right dir
 
 List which files are staged, unstaged, and untracked.
 
-    git fetch all
+    git fetch
 
-Fetches all remote branches.
+Fetches all remote branches. You can also fetch one/multiple selected remote branches.
 
     git stash
+
 > `git stash show [<options>] [<stash>]`
 >
 > `git stash drop [-q|--quiet] [<stash>]`
@@ -66,7 +57,9 @@ Stage all changes for next commit.
 
     git commit
 
-> `git commit -m <message>`
+> `git commit -m <message>` // one line commit message
+>
+> `git commit -a` // automatically staged all tracked, modified files
 
 Commit the staged snapshot launching a text editor.
 

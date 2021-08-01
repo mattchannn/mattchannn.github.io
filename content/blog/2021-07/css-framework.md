@@ -13,7 +13,7 @@ CSS 框架是一種軟體框架，以方便網頁開發跟確保更符合標準�
 &nbsp;
 ![Boostrap 5](/images/blog/bootstrap-banner-resize.png)
 
-### Boostrap
+### Bootstrap
 
 - 由 Twitter 在 2011 年推出。
 - 最流行的前端框架。
