@@ -8,6 +8,8 @@ draft: true
 
 ### Hugo
 
+- Make the website better
+  - ref: [git command](https://code.yidas.com/git-commands/)
 - [Append #ID to Header (using Markdown document type)](https://gohugo.io/content-management/cross-references/#heading-ids)
 
 - [How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
