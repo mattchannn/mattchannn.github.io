@@ -14,6 +14,11 @@ draft: true
 
 - [How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
 
+### Architecture-wise
+
+- What is API gateway
+  - ref: [youtube video](https://www.youtube.com/watch?v=1vjOv_f9L8I&ab_channel=JavaBrains)
+
 ### RESTful API
 
 - https://blog.bearer.sh/what-is-a-rest-api/#:~:text=Before%20REST%2C%20the%20main%20approach,Wide%20Web%20Consortium%20(W3C).
