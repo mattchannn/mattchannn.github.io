@@ -30,6 +30,7 @@ draft: true
 ### Front End
 
 - [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist#webfonts)
+- [Learn Flexbox](https://flexboxfroggy.com/)
 
 ### Javascript
 
