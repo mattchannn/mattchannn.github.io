@@ -56,3 +56,7 @@ name = "Doc"
 identifier = "Doc"
 weight = 200
 url = "/documentation"
+
+## Markdown specific
+[markup.goldmark.renderer]
+unsafe = true

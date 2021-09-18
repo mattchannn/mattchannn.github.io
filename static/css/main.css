@@ -962,3 +962,10 @@ iframe {
   text-align: right;
   margin-right: 4rem;
 }
+
+.css-framework.banner-logo {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
