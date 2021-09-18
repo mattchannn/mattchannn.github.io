@@ -6,7 +6,7 @@ tags: ["css", "framework", "boostrap"]
 comments: true
 ---
 
-# CSS Framework 介紹
+# CSS 框架 介紹
 
 CSS 框架是一種軟體框架，以方便網頁開發跟確保更符合標準的開發。大部份的 CSS 框架除了提供預先寫好的 CSS 以外，還會外加一些 Javascript 的功能，以便為網頁提供互動。本文將會就幾款在 2021 年比較流行的框架進行比較。
 
@@ -21,6 +21,17 @@ CSS 框架是一種軟體框架，以方便網頁開發跟確保更符合標準�
 - 缺點
   - 過度使用 !important。
   - 過度依靠 jQuery。
+
+&nbsp;
+![Tailwind](/images/blog/tailwindcss-banner-resize.png)
+
+### Tailwind CSS
+
+- 使用 atomic CSS，幾乎讓你不用做 coding。
+- 此框架沒有設計框架，意味著你可以創造自己想要的元素。
+- 可重用的元素
+- 缺點
+  - 比較難學
 
 &nbsp;
 ![Foundation](/images/blog/foundation-banner-resize.jpg)
@@ -43,17 +54,6 @@ CSS 框架是一種軟體框架，以方便網頁開發跟確保更符合標準�
 - 沒有使用 Javascript。
 - 缺點
   - 缺少對可達性(accessibility)跟其他企業級的功能的支持。
-
-&nbsp;
-![Tailwind](/images/blog/tailwindcss-banner-resize.png)
-
-### Tailwind CSS
-
-- 使用 atomic CSS，幾乎讓你不用做 coding。
-- 此框架沒有設計框架，意味著你可以創造自己想要的元素。
-- 可重用的元素
-- 缺點
-  - 比較難學
 
 ### 其他的框架
 
