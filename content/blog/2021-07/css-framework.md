@@ -8,7 +8,7 @@ comments: true
 className: css-framework
 ---
 
-# CSS 框架 介紹
+# CSS 框架介紹
 
 CSS 框架是一種軟體框架，以方便網頁開發跟確保更符合標準的開發。大部份的 CSS 框架除了提供預先寫好的 CSS 以外，還會外加一些 Javascript 的功能，以便為網頁提供互動。本文將會就幾款在 2021 年比較流行的框架進行比較。
 
@@ -18,12 +18,23 @@ Bootstrap 是一款由 Twitter 在 2011 年推出的開源 CSS 框架，由於�
 
 <img src="/images/blog/bootstrap-banner-resize.png" alt="Bootstrap logo" class="css-framework banner-logo"/>
 
-- 由 Twitter 在 2011 年推出。
-- 最流行的前端框架。
-- 技術社區(technical community)的發展比較成熟。
-- 缺點
-  - 過度使用 !important。
-  - 過度依靠 jQuery。
+優點
+
+> - Bootstrap 擁有極佳的 Grid System，易於打造 responsive 網頁
+>   <br>
+> - 省時並提高 Consistency，重用現有的 Bootstrap design
+>   <br>
+> - Bootstrap 擁有很多 prebuilt components，減低 coding effort
+
+缺點
+
+> - 令網頁的設計變得單一
+>   <br>
+> - 學習 Bootstrap syntax 需要一定的學習曲線 (learning curve)
+>   <br>
+> - Utility 和 Helper class 過度使用 !important，使你的 style override 都會需要使用 !important
+>   <br>
+> - 過度依靠 jQuery
 
 <br />
 ## Tailwind CSS
@@ -56,13 +67,13 @@ Bootstrap 是一款由 Twitter 在 2011 年推出的開源 CSS 框架，由於�
 - 缺點
   - 缺少對可達性(accessibility)跟其他企業級的功能的支持。
 
-### 其他的框架
+## 其他的框架
 
 - UIKit
 - Miligram
 - Pure.css
 - Tachyons
 
-### 參考資料
+## 參考資料
 
 [9 Best CSS Frameworks in 2021](https://athemes.com/collections/best-css-frameworks/)
