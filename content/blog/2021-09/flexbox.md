@@ -46,7 +46,7 @@ Flex-wrap
 
 ```css
 flex: <flex-grow: 0> <flex-shrink: 1> <flex-basis: auto>
-order: <values>
+order: <values: 0>
 align-self: <values>
 align-content: <values>
 ```
@@ -56,19 +56,29 @@ Flex-grow
 - 使 flex items 可以 按比例地 用盡主軸的所有有限空間 繼續伸展。Flex-grow 的數值不能有負數
 
 Flex-basis
-- 設定flex items 的初始值。
-- 假設flex item A 的 flex-basis 為200px, 如果200px不影響之後flex item(s)的寬度 (以min-content計算) 則可以grow至200px
-    - 反之: 如果影響的話，則會shrink to fit the space available 直至其他items夠位為止
 
+- 設定 flex items 的初始值。
+- 假設 flex item A 的 `flex-basis` 為 200px, 如果 200px 不影響之後 flex item(s)的寬度 (以 min-content 計算) 則可以 grow 至最多 200px
+  - 反之: 如果影響的話，則會 shrink to fit the space available 直至其他 items 夠位為止
+  - 詳情請看[此](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
 
 Align-self
 
-- 此屬性的值是受到`align-items`所影響，`align-items`會影響 flex container 的一整個群組，而`align-self`的目的是為了讓開發者可以額外指定某元件 (item) 的 alignment。
+- 此屬性的值是受到 `align-items` 所影響，`align-items` 會影響 flex container 的一整個群組，而`align-self`的目的是為了讓開發者可以額外指定某元件 (item) 的 alignment
 
 Align-content
 
-- 首先此屬性只適用於 multi-line container，它可以控制行與行之間的距離。
-- single-line container 應使用`align-itesm`，用來控制行與容器之間的距離。
+- 首先此屬性只適用於 multi-line container，它可以控制行與行之間的距離
+- single-line container 應使用 `align-items`，用來控制行與容器之間的距離
+
+Order
+
+- 預設值: 0
+- 可以改變特定的 flex item 的視覺排序 (visual order)
+  - order 跟 `flex-direction` 一樣，是不會改變 source order/navigation order 的
+- 視覺排序會根據 integer value 去界定，如果 integer value 一樣則再以 source order 區分
+- 接受 正/負 數
+- [使用範例](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items#use_cases_for_order)
 
 ## 參考資料
 
