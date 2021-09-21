@@ -6,18 +6,22 @@ isShared: false
 draft: true
 ---
 
-### Hugo
+### General programming language
 
-- Make the website better
-  - ref: [git command](https://code.yidas.com/git-commands/)
-- [Append #ID to Header (using Markdown document type)](https://gohugo.io/content-management/cross-references/#heading-ids)
-
-- [How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
+- declarative programming vs imperative programming
 
 ### Architecture-wise
 
 - What is API gateway
   - ref: [youtube video](https://www.youtube.com/watch?v=1vjOv_f9L8I&ab_channel=JavaBrains)
+
+### Hugo
+
+- Finalize git command
+  - ref: [git command](https://code.yidas.com/git-commands/)
+- [Append #ID to Header (using Markdown document type)](https://gohugo.io/content-management/cross-references/#heading-ids)
+
+- [How to init a github repository](https://kbroman.org/github_tutorial/pages/init.html)
 
 ### RESTful API
 
@@ -76,13 +80,6 @@ draft: true
 ### Java
 
 - [Nested Class 解說](https://jchu.cc/2018/02/08-nested-class.html)
-
-### Intellij Shortcut
-
-- SHIFT (double tap)
-  - find class globally
-- CTRL + SHIFT + F
-  - search string throughout the whole folder
 
 ### Networking
 
