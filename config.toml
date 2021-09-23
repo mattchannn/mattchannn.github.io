@@ -12,7 +12,7 @@ assetDir = "/static"
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 [params]
-logo = "/images/blog-logo.png"
+logo = "/images/blog-logov2.png"
 description = "the clean blog!"
 backgroundImage = "/images/background-image.jpg"
 customCSS = ["/css/list.css"]

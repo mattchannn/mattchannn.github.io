@@ -89,7 +89,7 @@ pre {
 
 @media (min-width: 992px) {
   .mediumnavigation {
-    height: 60px;
+    height: 80px;
   }
 }
 
@@ -105,17 +105,18 @@ pre {
 
 @media (min-width: 992px) {
   .site-content {
-    margin-top: calc(72px + 8rem);
+    /* header height */
+    margin-top: 80px;
   }
-}
 
-.main-content.index {
-  margin-top: 40vh;
+  .site-content.index .container {
+    margin-top: 40vh;
+  }
 }
 
 .site-content > .container {
   min-height: 50vh;
-  margin: 0 !important;
+  margin: 0;
   max-width: none;
   padding: 0px 5rem;
 }
@@ -362,8 +363,13 @@ span.post-read-more a:hover {
   color: green;
 }
 
+.mediumnavigation .container {
+  height: 100%;
+}
+
 .mediumnavigation .navbar-brand {
   font-weight: 500;
+  height: 100%;
 }
 
 .mediumnavigation .dropdown-menu {
@@ -386,7 +392,7 @@ span.post-read-more a:hover {
 
 .mediumnavigation .navbar-brand img {
   margin-right: 5px;
-  height: 90px;
+  height: 100%;
 }
 
 .mainheading h1.sitetitle {
@@ -943,7 +949,7 @@ iframe {
     Times, serif;
   font-size: 2.5rem;
   line-height: 1;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 992px) {
