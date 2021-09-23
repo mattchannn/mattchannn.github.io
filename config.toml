@@ -30,11 +30,6 @@ description = "Author"
 ## picture = "/images/author.png"
 ## title = "Mat CHAN"
 subtitle = "Welcome to Mat's Blog! A blog for technical guy, developers and mostly for myself."
-##mdtext = '''
-### Currently trying to get this blog running, still don't know what the blog will be about!\
-### **This textblock is a demonstration of the mdtext-param.**\
-### ### This is a markdown heading
-### '''
 mdtext = '''
 This website is served as a place that contains [blog posts](/blog) and [cheatsheets](/documentation).
 '''
